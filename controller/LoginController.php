@@ -19,7 +19,7 @@
 		{
 			//echo $objLogin->officeUserIsFound;
 			$_SESSION["LoginError"] = 1;
-			header("Location:../index.php");
+			header("Location:../index.html");
 		}
 	}
 ?>
